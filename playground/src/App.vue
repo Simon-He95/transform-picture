@@ -17,7 +17,6 @@ function submitPic(e) {
 async function transformPic() {
   if (!baseURL)
     return
-
   output = await transformPicture(baseURL)
   document.getElementById('outImg').src = output.toDataURL()
 }
