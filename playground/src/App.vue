@@ -94,8 +94,8 @@ function upload() {
       text-sm
       :interval="200"
     />
-    <div w-50 min-h-25 ma relative>
-      <img v-if="src" id="img" :src="src" w-full alt="上传图片" ma m-y-5>
+    <div w-50 min-h-30 ma relative bg-gray-300:30 border-rd-1 m-y-5>
+      <img v-if="src" id="img" :src="src" w-full alt="上传图片" ma>
       <img
         v-else
         src="/photo.png"
