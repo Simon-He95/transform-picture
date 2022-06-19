@@ -39,7 +39,14 @@ function upload() {
 
 <template>
   <main font-sans p="x-4 y-10" text="center gray-700 dark:gray-200">
-    <input id="file" type="file" name="file" hidden @change="submitPic">
+    <input
+      id="file"
+      type="file"
+      name="file"
+      hidden
+      accept="image/*"
+      @change="submitPic"
+    >
     <button btn m-y-5 @click="upload">
       上传图片
     </button>
