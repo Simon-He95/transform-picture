@@ -1,6 +1,8 @@
 ## transform-picture
-  将上传图片消除白色背景，并转换为png | jpg | jpeg | pdf 格式 下载到本地
 [live demo](https://transform-picture.hejian.club/)
+
+  将上传图片消除白色背景，并转换为png | jpg | jpeg | pdf 格式 下载到本地
+
 
 ## 安装
 ```bash
@@ -27,7 +29,8 @@ function download(type) {
 ```
 
 ## 依赖
-vue
-jspdf
+`vue`
+
+`jspdf`
 
 
