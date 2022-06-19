@@ -1,6 +1,6 @@
 {
   "name": "transform-picture",
-  "version": "0.0.2",
+  "version": "1.0.0",
   "packageManager": "pnpm@6.32.3",
   "description": "transform-picture",
   "author": "Simon He",
