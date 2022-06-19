@@ -47,11 +47,13 @@ importers:
       vite: ^2.8.6
       vite-plugin-pages: ^0.22.0
       vitest: ^0.7.0
+      vivid-typing: ^1.1.18
       vue: ^3.2.31
       vue-router: ^4.0.14
       vue-tsc: ^0.33.2
     dependencies:
       '@vueuse/core': 8.6.0_vue@3.2.36
+      vivid-typing: 1.1.18
       vue: 3.2.36
       vue-router: 4.0.15_vue@3.2.36
     devDependencies:
@@ -4294,6 +4296,15 @@ packages:
       - sass
       - stylus
     dev: true
+
+  /vivid-typing/1.1.18:
+    resolution: {integrity: sha512-iNQ/1gvOcnjpxF0LS1y7vK7tDdaCEt9+Jza38MSiSsyH2N63Z9pbW2V4l0/f2Gn9u6Nu5Oy8NEf1fhEkJ9qKBA==}
+    dependencies:
+      '@vueuse/core': 8.6.0_vue@3.2.36
+      vue: 3.2.36
+    transitivePeerDependencies:
+      - '@vue/composition-api'
+    dev: false
 
   /vscode-jsonrpc/8.0.1:
     resolution: {integrity: sha512-N/WKvghIajmEvXpatSzvTvOIz61ZSmOSa4BRA4pTLi+1+jozquQKP/MkaylP9iB68k73Oua1feLQvH3xQuigiQ==}
