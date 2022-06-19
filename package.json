@@ -1,19 +1,21 @@
 {
-  "name": "vitesse",
+  "name": "transform-picture",
   "version": "0.0.1",
   "packageManager": "pnpm@6.32.3",
-  "description": "vitesse",
+  "description": "transform-picture",
   "author": "Simon He",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git + git@github.com:Simon-He95/vitesse.git"
+    "url": "git + git@github.com:Simon-He95/transform-picture.git"
   },
   "bugs": {
-    "url": "https://github.com/Simon-He95/vitesse/issues"
+    "url": "https://github.com/Simon-He95/transform-picture/issues"
   },
   "keywords": [
-    "vitesse",
+    "transform-picture",
+    "canvas",
+    "jspdf",
     "vue"
   ],
   "exports": {
