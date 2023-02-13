@@ -1,5 +1,5 @@
 ## transform-picture
-[live demo](https://transform-picture.hejian.club/)
+[live demo](https://transform-image.netlify.app/)
 
   将上传图片消除白色背景，并转换为png | jpg | jpeg | pdf 格式 下载到本地
 
