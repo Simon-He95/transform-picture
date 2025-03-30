@@ -84,6 +84,7 @@ function upload() {
         border-1
         border-yellow
         border-rd-1
+        min-w-50
       >
     </div>
     <vivid-typing
